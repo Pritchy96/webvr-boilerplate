@@ -2684,9 +2684,9 @@ WebVRManager.prototype.setMode_ = function(mode) {
   if (this.mode == Modes.VR && Util.isLandscapeMode() && Util.isMobile()) {
     // In landscape mode, temporarily show the "put into Cardboard"
     // interstitial. Otherwise, do the default thing.
-    this.rotateInstructions.showTemporarily(3000);
+    //this.rotateInstructions.showTemporarily(3000);
   } else {
-    this.updateRotateInstructions_();
+    //this.updateRotateInstructions_();
   }
 
   // Also hide the viewer selector.
